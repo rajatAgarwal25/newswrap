@@ -1,0 +1,2 @@
+# newswrap
+wrapper over newsapi
