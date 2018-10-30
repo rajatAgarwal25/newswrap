@@ -28,11 +28,4 @@ public class NewsWrapController {
         return new GenericApiResponse(newsWrapService.getNewsContent(country, category, keyword));
     }
 
-    @RequestMapping(value = "ping", method = RequestMethod.GET)
-    @ResponseBody
-    @ApiOperation(notes = "API for status check", value = "API to check tomcat status")
-    public GenericApiResponse ping() {
-        return new GenericApiResponse("pong");
-    }
-
 }
