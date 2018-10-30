@@ -1,2 +1,1 @@
 # newswrap
-wrapper over newsapi
